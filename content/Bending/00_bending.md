@@ -13,7 +13,7 @@ Although we will be looking at various cases for bending within this chapter, th
 
 First, recall the sign convention for internal forces and moments in a beam with an axis parallel to the $z$-coordinate direction illustrated in [](#Fig:SignConv). In this chapter, we will be limiting our viewpoint to the bending moments $M_x$ and $M_y$. Note the directions of $M_x$ and $M_y$ and review the earlier chapter on internal loading for a detailed explanation of the convention used for positive forces and moments. 
 
-```{figure} ../figures/Sign_convention_forces_disp.svg
+```{figure} figures/Sign_convention_forces_disp.svg
 :label: Fig:SignConv
 :width: 80%
 :align: center
