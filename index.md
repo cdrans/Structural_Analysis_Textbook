@@ -1,5 +1,5 @@
 ---
-title: Jupyter Book 2 Workshop Template
+title: Aircraft Structural Analysis and Design
 site:
   hide_outline: true
   hide_toc: true
@@ -8,7 +8,7 @@ site:
 
 <div style="text-align: center">
 
-# Jupyter Book 2 Workshop Template
+# Aircraft Structural Analysis and Design Textbook
 
 </div>
 
@@ -17,8 +17,8 @@ site:
 :align: center
 ```
 
-_A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops._
+_An interactive course reader for for the TUDelft course "AE2135-I Aircraft Structural Analysis and Design"_
 
 <div style="text-align: center", font-size: 1.2em>
-Freek Pols, Luuk Fröling, Robert Lanzafame, Kirstie Whitaker, Jim Madge
+Dr. Calvin Rans
 </div>
