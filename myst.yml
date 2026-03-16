@@ -35,11 +35,11 @@ project:
 
   toc:
     - file: index.md                      # the landing page
-    - file: Bending/00_bending.md
+    - file: content/Bending/00_bending.md
       sections:
-      - file: Bending/01_sym_bending.md
-      - file: Bending/02_bia_bending.md
-      - file: Bending/03_unsym_bending.md
+      - file: content/Bending/01_sym_bending.md
+      - file: content/Bending/02_bia_bending.md
+      - file: content/Bending/03_unsym_bending.md
 
 
   abbreviations:
