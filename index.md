@@ -13,7 +13,7 @@ site:
 </div>
 
 ```{figure} content/figures/Rocket_Scientist_Fanta.png
-:width: 80%
+:width: 60%
 :align: center
 ```
 
