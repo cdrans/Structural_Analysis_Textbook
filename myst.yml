@@ -33,19 +33,13 @@ project:
     binder:
       repo: https://github.com/executablebooks/thebe-binder-base
 
-  toc:
-    - file: index.md                      # the landing page
-    - file: content/Bending/00_bending.md
-      children:
-      - file: content/Bending/01_sym_bending.md
-      - file: content/Bending/02_bia_bending.md
-      - file: content/Bending/03_unsym_bending.md
 
-
+  extends:
+  - toc.yml
+  
   abbreviations:
     FEM: Finite Element Method
   
-
     
 site:
   template: book-theme
@@ -60,6 +54,3 @@ site:
     - title: Feedback
       url: https://github.com/cdrans/Structural_Analysis_Textbook/issues
 
-sphinx: 
-    extra_extensions:
-        - sphinx_image_inverter

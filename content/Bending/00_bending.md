@@ -1,3 +1,8 @@
+---
+numbering:
+  title:
+    offset: 0
+---
 # Bending
 Beams are one of the most common structural elements in the design toolbox of an engineer, but what is a beam really? Engineers use the term *beam* to refer to structural elements that satisfy two basic conditions:
 
