@@ -1,8 +1,8 @@
-## Biaxial Bending 
+# Biaxial Bending 
 In deriving the Flexure Formula for Symmetric Bending, a number of major assumptions about the beam geometry and loading were made. These assumptions greatly simplified the derivation of the formula; however, they also limit the general applicability of the resulting formula. We will systematically relax some of these assumptions in order to obtain more generalized formulas for bending of beams.
 
 We will start by relaxing the constraint on the orientation of the internal bending moment. Previously, we considered only a bending moment that acted orthogonal to an axis of symmetry of the cross section. In this way, bending deformation was confined to the plane defined by this axis of symmetry and the axis of the beam itself (the $z$-axis). We will now consider the case of the internal moment being oriented by an angle $\theta$ with respect to the axis of symmetry as illustrated in {numref}`Fig:Morient`.
-```{figure} ../figures/Biaxial_Bending.svg
+```{figure} figures/Biaxial_Bending.svg
 ---
 width: 80%
 name: Fig:Morient
@@ -17,7 +17,7 @@ Write down your thoughts so that you can critically reflect on them and align yo
 
 ### Analyzing Biaxial Bending Using Superposition
 This loading state of an arbitrary internal bending moment acting within a symmetric beam cross section is typically referred to as *biaxial bending* as it can be viewed as superposition of two symmetric bending problems.  
-```{figure} ../figures/Biaxial_Bending_decomp.svg
+```{figure} figures/Biaxial_Bending_decomp.svg
 ---
 width: 90%
 name: Fig:BiaxBendSup
@@ -45,7 +45,7 @@ name: eq:BiaBendNA
 \frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = \tan\alpha 
 ```
 Finally, we can recognize that the ratio of $y/x$ will be equal to the tangent of the angle $\alpha$ as defined in {numref}`Fig:BiaxBendNA`, allowing us to solve for the angle of the neutral axis.
-```{figure} ../figures/Biaxial_bending_NA.svg
+```{figure} figures/Biaxial_bending_NA.svg
 ---
 width: 70%
 name: Fig:BiaxBendNA

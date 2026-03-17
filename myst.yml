@@ -59,3 +59,7 @@ site:
   actions:
     - title: Feedback
       url: https://github.com/cdrans/Structural_Analysis_Textbook/issues
+
+sphinx: 
+    extra_extensions:
+        - sphinx_image_inverter
