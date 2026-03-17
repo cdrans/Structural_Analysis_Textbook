@@ -49,9 +49,9 @@ project:
 site:
   template: book-theme
   options:
-    favicon: ./content/figures/favicon.ico      # path to your favicon
-    style: ./css/custom.css
-    logo: ./content/figures/logo.svg          # path to your logo, shown top left at site
+    favicon: content/figures/favicon.ico      # path to your favicon
+    style: css/custom.css
+    logo: content/figures/logo.svg          # path to your logo, shown top left at site
     folders: false
     hide_authors: true
 
